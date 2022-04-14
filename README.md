@@ -1,10 +1,15 @@
-# Breast Cancer Winconsin Classification
+# Breast Cancer Winconsin - Classification and Prediction
 
-## 1. Summary
-The aim of this project is to create a highly accurate deep learning model to predict breast cancer (wehter the tumour is malignant or benign). The model is trained with [Winsonsin Breast Cancer Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).
+## 1. Summary of the project
+This is Data set to classify the Benign and Malignant cells in the given dataset using the description about the cells in the form of columnar attributes. The aim of this project is to create a highly accurate deep learning model to predict breast cancer (whether the tumour is malignant or benign). The model is trained with [Winsonsin Breast Cancer Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).
+
+The breast cancer data includes 569 examples of cancer bipsies, each with 32 features. One feature is an identification number, another is the cancer diagnosis and 30 are numerical values laboratory measurements. The diagnosis is coded as "M" to indicate malignant or "B" to indicate benign
 
 ## 2. IDE and Framework
-This project is created using Spyder as the main IDE. The main frameworks used in this project are Pandas, Scikit-learn and TensorFlow Keras
+This project is created using Spyder as the main IDE. The main frameworks used in this project are:
+- Pandas
+- Scikit-learn
+- TensorFlow Keras
 
 ## 3. Methodology
 
@@ -16,7 +21,7 @@ A feedforward neural network is constructed that is catered for classification p
 
 ![alt text](https://github.com/paan234/ai05-test-repo/blob/master/Image/model.png)
 
-The model is trained with a batch size of 32 and for 100 epochs. Early stopping is applied in this training. The training stops at epoch 24, with a training accuracy of 99% and validation accuracy of 95%. The two figures below show the graph of the training process.
+The model is trained with a batch size of 32 and for 100 epochs. Early stopping is applied in this training. The training stops at epoch 23, with a training accuracy of 99% and validation accuracy of 95%. The two figures below show the graph of the training process.
 
 ![alt text](https://github.com/paan234/ai05-test-repo/blob/master/Image/Loss_graph.png)
 
