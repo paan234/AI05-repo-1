@@ -1,7 +1,7 @@
 # Breast Cancer Winconsin - Classification and Prediction
 
 ## 1. Summary of the project
-This is Data set to classify the Benign and Malignant cells in the given dataset using the description about the cells in the form of columnar attributes. The aim of this project is to create a highly accurate deep learning model to predict breast cancer (whether the tumour is malignant or benign). The model is trained with [Winsonsin Breast Cancer Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).
+This is a dataset to classify the Benign and Malignant cells in the given dataset using the description about the cells in the form of columnar attributes. The aim of this project is to create a highly accurate deep learning model to predict breast cancer (whether the tumour is malignant or benign). The model is trained with [Winsonsin Breast Cancer Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).
 
 The breast cancer data includes 569 examples of cancer bipsies, each with 32 features. One feature is an identification number, another is the cancer diagnosis and 30 are numerical values laboratory measurements. The diagnosis is coded as "M" to indicate malignant or "B" to indicate benign
 
